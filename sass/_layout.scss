@@ -1,0 +1,28 @@
+.header {
+  padding: 3.5rem 1rem;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav__list {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav__item {
+    margin: 0 2rem;
+  }
+
+  .nav__link {
+    color: #000;
+  }
+}
