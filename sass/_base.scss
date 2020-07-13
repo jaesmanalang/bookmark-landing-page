@@ -1,0 +1,38 @@
+$color-soft-blue: hsl(231, 69%, 60%);
+$color-soft-red: hsl(0, 94%, 66%);
+$color-gray-blue: hsl(229, 8%, 60%);
+$color-dark-blue: hsl(229, 31%, 21%);
+
+$font-primary: Rubik;
+$font-fallback: sans-serif;
+
+$bp-mobile: 640px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+$bp-big-desktop: 1280px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary, $font-fallback;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
