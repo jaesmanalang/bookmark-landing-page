@@ -4,6 +4,7 @@ $color-soft-blue: hsl(231, 69%, 60%);
 $color-soft-red: hsl(0, 94%, 66%);
 $color-gray-blue: hsl(229, 8%, 60%);
 $color-dark-blue: hsl(229, 31%, 21%);
+$color-white: rgb(240, 240, 240);
 
 $font-primary: Rubik;
 $font-fallback: sans-serif;
@@ -27,13 +28,14 @@ html {
 
 body {
   font-family: $font-primary, $font-fallback;
-  font-size: 1.8rem;
-  line-height: 1.6;
+  font-size: 1.6rem;
   box-sizing: border-box;
+  line-height: 1.6;
 }
 
 a {
   text-decoration: none;
+  color: $color-dark-blue;
 }
 
 ul {
