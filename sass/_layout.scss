@@ -40,7 +40,7 @@
 
 .hero {
   padding: 3rem 0;
-  height: calc(100vh - 10.6rem);
+  // max-height: calc(100vh - 10.6rem);
 
   .container {
     display: flex;
@@ -50,7 +50,8 @@
   }
 
   &__content {
-    width: 40%;
+    padding: 0 2rem;
+    width: 60rem;
 
     &-text {
       margin: 3rem 0;
@@ -63,7 +64,7 @@
 
 
   &__img {
-    width: 60%;
+    width: 50%;
     position: relative;
     z-index: -100;
 
@@ -82,4 +83,34 @@
     }
   }
 
+}
+
+/* Features Section */
+
+.features {
+
+  &__content {
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+    &-text {
+      margin: 2rem auto;
+      margin-bottom: 5rem;
+      width: 70%;
+    }
+
+    &-links {
+      padding: 2rem 0;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: $color-gray-blue 2px solid;
+
+      a:hover {
+        color: $color-soft-red;
+
+      }
+    }
+  }
 }
